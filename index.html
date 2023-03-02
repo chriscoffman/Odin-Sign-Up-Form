@@ -8,8 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="image-container">
-        <div class="space-image"></div>
+    <div class="space-image">
+        <div class="logo-bar">
+            <img src="/odin-lined.png" alt="" class="odin-logo">
+            <div class="logo-text">Astronomer</div>
+        </div>
         <div class="image-credit">Photo by <a href="https://unsplash.com/@mischievous_penguins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Casey Horner</a> on <a href="https://unsplash.com/images/nature/space?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
     </div>
     <div class="right-container">
@@ -22,25 +25,34 @@
                 <h1>Let's do this!</h1>
             </header>
             <div class="form-row">
-                <label for="first-name">First Name</label>
-                <input id="first-name" name="first-name" type="text">
-    
-                <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" name="last-name">
+                <div class="input">
+                    <label for="first-name">First Name</label>
+                    <input id="first-name" name="first-name" type="text">
+                </div>
+                <div class="input">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
             </div>
             <div class="form-row">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
-
-                <label for="phone-number">Phone Number</label>
-                <input type="tel" id="phone-number" name="phone-number">
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="input">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" id="phone-number" name="phone-number">
+                </div>
             </div>
             <div class="form-row">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password">
-     
-                <label for="confirm-password">Confirm Password</label>
-                <input type="password" id="confirm-password" name="confirm-password">
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="input">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password">
+                </div>
             </div>
             <button>Submit</button>
         </form>
